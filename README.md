@@ -1,0 +1,1 @@
+This repository demonstrates a subtle Lua error related to nil checks.  The `foo` function attempts to handle nil values; however, the error occurs *before* the nil check.  The solution illustrates a more robust approach to error prevention.
